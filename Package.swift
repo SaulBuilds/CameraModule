@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CameraModule",
     platforms: [
-        .iOS(.v14)  // Specify iOS as the platform
+        .iOS(.v14)
     ],
     products: [
         .library(
@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "CameraModule",
-            dependencies: [] // No dependencies required
+            dependencies: []
         ),
         .testTarget(
             name: "CameraModuleTests",
